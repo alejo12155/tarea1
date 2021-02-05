@@ -1,0 +1,333 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="estilo.css">
+
+  <h1 style="font-family: Helvetica; margin-left: 125px;margin-top: 80px; color: white; font-size:40px;"> Funciones en Excel</h1>
+</head>
+  <body>
+   
+      <nav>
+        <br><br>
+        <ul id="menu">
+          <li><a href="#ocultar-y-mostrar1">Funciones Básicas</a></li>
+          <li><a href="">Funciones para Contar</a>
+            <ul>
+              <li><a href="#ocultar-y-mostrar4">Contar</a></li>
+              <li><a href="#ocultar-y-mostrar5">Contar.Si</a></li>
+              <li><a href="#ocultar-y-mostrar6">Contar.Si.Conjunto</a></li>
+            </ul>  
+          </li>
+          <li><a href="#ocultar-y-mostrar7">Funciones de Ubicacion</a></li>
+          
+          
+        </ul>
+
+</nav>
+
+ <img src="oja.jpg" style="margin-top: 40px; margin-left: -400px; border-radius: 10px;">
+
+
+ <img src="oja1.png" style="margin-top: -350px; margin-left: 400px; border-radius: 10px;">
+
+
+<div style="margin-top: 1000px; height: 300px; width: 450px; border-radius: 10px; background-color: #000000;color: white; margin-left: -400px;">
+<h1 style="margin-left: 120px">Funcion Suma</h1>
+<button id='ocultar-mostrar1' style="margin-left: 180px;"></i>Ver Mas</button>
+
+
+ <div id='ocultar-y-mostrar1' style="margin-left: 150px"><br>
+  <img src="suma.png" style="margin-left: -140px;">
+<h5 style="margin-top: -160px; margin-left: 20px"> La suma o adición de valores en Excel, es una parte integral del análisis de datos, ya sea que esté realizando un subtotal de ventas en la región Noroeste o haciendo un total acumulado de recibos semanales. Excel proporciona múltiples fórmulas que puede usar para sumar datos. </h5>
+<a href="#menu"style="margin-left: 200px">Volver</a>
+
+    </div>
+
+    <script>
+        window.addEventListener('load', init, false);
+        function init() {
+            let div = document.querySelector('#ocultar-y-mostrar1');
+            div.style.visibility = 'hidden';
+            let boton = document.querySelector('#ocultar-mostrar1');
+            boton.addEventListener('click', function (e) {
+                if(div.style.visibility === 'visible'){
+                    div.style.visibility = 'hidden';
+                }else{
+                    div.style.visibility = 'visible';
+                }
+            }, false);
+        }
+    </script>
+      </div>
+</div>
+
+
+
+
+<div style="margin-top: -320px; height: 300px; width: 450px; border-radius: 10px; background-color: #5E2749;color:white; margin-left: 100px;">
+<h1 style="margin-left: 80px">Funcion Promedio</h1>
+<button id='ocultar-mostrar2' style="margin-left: 180px;"></i>Ver Mas</button>
+
+
+ <div id='ocultar-y-mostrar2' style="margin-left: 150px"><br>
+  <img src="pro.png" style="margin-left: -140px;">
+<h5 style="margin-top: -160px; margin-left: 160px"> La función PROMEDIO es una función estadística. Se usa para analizar el rango de datos y encontrar el valor promedio. </h5>
+<a href="#menu"style="margin-left: 200px">Volver</a>
+</div>
+
+    
+
+    <script>
+        window.addEventListener('load', init, false);
+        function init() {
+            let div = document.querySelector('#ocultar-y-mostrar2');
+            div.style.visibility = 'hidden';
+            let boton = document.querySelector('#ocultar-mostrar2');
+            boton.addEventListener('click', function (e) {
+                if(div.style.visibility === 'visible'){
+                    div.style.visibility = 'hidden';
+                }else{
+                    div.style.visibility = 'visible';
+                }
+            }, false);
+        }
+    </script>
+      </div>
+</div>
+
+
+
+
+<div style="margin-top: -320px; height: 300px; width: 440px; border-radius: 10px; background-color: #16A1AB  ; margin-left: 600px;">
+<h1 style="margin-left: 130px">Función MIN</h1>
+<button id='ocultar-mostrar3' style="margin-left: 180px;"></i>Ver Mas</button>
+
+
+ <div id='ocultar-y-mostrar3' style="margin-left: 150px"><br>
+  <img src="contar.png" style="margin-left: -140px;">
+<h5 style="margin-top: -160px; margin-left: 160px"> La función MIN nos devuelve el valor mínimo de una lista de valores omitiendo los valores lógicos y el texto.  </h5>
+<a href="#menu"style="margin-left: 200px">Volver</a></div>
+    
+
+    <script>
+        window.addEventListener('load', init, false);
+        function init() {
+            let div = document.querySelector('#ocultar-y-mostrar3');
+            div.style.visibility = 'hidden';
+            let boton = document.querySelector('#ocultar-mostrar3');
+            boton.addEventListener('click', function (e) {
+                if(div.style.visibility === 'visible'){
+                    div.style.visibility = 'hidden';
+                }else{
+                    div.style.visibility = 'visible';
+                }
+            }, false);
+        }
+    </script>
+      </div>
+</div>
+
+
+
+
+
+
+  <div style="margin-top: 520px; height: 300px; width: 500px; border-radius: 10px; background-color: #20FF00   ; margin-left: 80px; ">
+  <h1 style="margin-left: 140px">Función Contar</h1>
+<button id='ocultar-mostrar4' style="margin-left: 220px;"></i>Ver Mas</button>
+
+
+ <div id='ocultar-y-mostrar4' style="margin-left: 150px"><br>
+  <img src="contar.png" style="margin-left: -140px;">
+<h5 style="margin-top: -160px; margin-left: 160px"> Use la función CONTAR para obtener la cantidad de entradas en un campo de número de un rango o matriz de números. </h5>
+<a href="#menu"style="margin-left: 200px">Volver</a></div>
+    
+
+      <script>
+          window.addEventListener('load', init, false);
+          function init() {
+              let div = document.querySelector('#ocultar-y-mostrar4');
+              div.style.visibility = 'hidden';
+              let boton = document.querySelector('#ocultar-mostrar4');
+              boton.addEventListener('click', function (e) {
+                  if(div.style.visibility === 'visible'){
+                      div.style.visibility = 'hidden';
+                  }else{
+                      div.style.visibility = 'visible';
+                  }
+              }, false);
+          }
+      </script>
+        </div>
+  </div>
+
+
+
+
+<div style="margin-top: 520px; height: 300px; width: 530px; border-radius: 10px; background-color: #FF0000; margin-left: 80px;">
+ <h1 style="margin-left: 140px">Función Contar.Si</h1>
+<button id='ocultar-mostrar5' style="margin-left: 240px;"></i>Ver Mas</button>
+
+
+ <div id='ocultar-y-mostrar5' style="margin-left: 150px"><br>
+  <img src="conta1.png" style="margin-left: -140px;">
+<h5 style="margin-top: -160px; margin-left: 160px"> Use CONTAR.SI, una de las funciones estadísticas, para contar el número de celdas que cumplen un criterio; por ejemplo, para contar el número de veces que una ciudad determinada aparece en una lista de clientes. </h5>
+<a href="#menu"style="margin-left: 200px">Volver</a></div>
+    
+
+    <script>
+        window.addEventListener('load', init, false);
+        function init() {
+            let div = document.querySelector('#ocultar-y-mostrar5');
+            div.style.visibility = 'hidden';
+            let boton = document.querySelector('#ocultar-mostrar5');
+            boton.addEventListener('click', function (e) {
+                if(div.style.visibility === 'visible'){
+                    div.style.visibility = 'hidden';
+                }else{
+                    div.style.visibility = 'visible';
+                }
+            }, false);
+        }
+    </script>
+      </div>
+</div>
+
+
+
+
+<div style="margin-top: 520px; height: 350px; width: 580px; border-radius: 10px; background-color: #122051;color: white; margin-left: 0px;">
+ <h1 style="margin-left: 100px">Función Contar.Si.Conjunto</h1>
+<button id='ocultar-mostrar6' style="margin-left: 260px;"></i>Ver Mas</button>
+
+
+ <div id='ocultar-y-mostrar6' style="margin-left: 150px"><br>
+  <img src="contar2.png" style="margin-left: -140px;">
+<h5 style="margin-top: -160px; margin-left: 230px">La función CONTAR.SI.CONJUNTO aplica criterios a las celdas de varios rangos y cuenta el número de veces que se cumplen todos los criterios. </h5>
+<a href="#menu"style="margin-left: 250px">Volver</a></div>
+    
+
+    
+
+    <script>
+        window.addEventListener('load', init, false);
+        function init() {
+            let div = document.querySelector('#ocultar-y-mostrar6');
+            div.style.visibility = 'hidden';
+            let boton = document.querySelector('#ocultar-mostrar6');
+            boton.addEventListener('click', function (e) {
+                if(div.style.visibility === 'visible'){
+                    div.style.visibility = 'hidden';
+                }else{
+                    div.style.visibility = 'visible';
+                }
+            }, false);
+        }
+    </script>
+      </div>
+</div>
+
+
+
+
+<div style="margin-top: 1000px; height: 300px; width: 450px; border-radius: 10px; background-color: #2B891E;color:white; margin-left: -400px;">
+<h1 style="margin-left: 120px">Funcion BuscarV</h1>
+<button id='ocultar-mostrar7' style="margin-left: 180px;"></i>Ver Mas</button>
+
+
+ <div id='ocultar-y-mostrar7' style="margin-left: 150px"><br>
+  <img src="buscarv.png"style="margin-left: -140px;">
+<h5 style="margin-top: -160px; margin-left: 160px"> Use BUSCARV cuando necesite buscar elementos en una tabla o en un rango por fila. </h5>
+<a href="#menu"style="margin-left: 200px">Volver</a>
+
+    </div>
+
+    <script>
+        window.addEventListener('load', init, false);
+        function init() {
+            let div = document.querySelector('#ocultar-y-mostrar7');
+            div.style.visibility = 'hidden';
+            let boton = document.querySelector('#ocultar-mostrar7');
+            boton.addEventListener('click', function (e) {
+                if(div.style.visibility === 'visible'){
+                    div.style.visibility = 'hidden';
+                }else{
+                    div.style.visibility = 'visible';
+                }
+            }, false);
+        }
+    </script>
+      </div>
+</div>
+
+
+
+
+<div style="margin-top: -320px; height: 300px; width: 450px; border-radius: 10px; background-color: #8B928A; margin-left: 100px;">
+<h1 style="margin-left: 80px">Funcion Coincidir</h1>
+<button id='ocultar-mostrar8' style="margin-left: 180px;"></i>Ver Mas</button>
+
+
+ <div id='ocultar-y-mostrar8' style="margin-left: 150px"><br>
+  <img src="coincidir.png" style="margin-left: -140px;">
+<h5 style="margin-top: -200px; margin-left: 160px">La función COINCIDIR busca un elemento determinado en un intervalo de celdas y después devuelve la posición relativa de dicho elemento en el rango. </h5>
+<a href="#menu"style="margin-left: 200px">Volver</a>
+</div>
+
+    
+
+    <script>
+        window.addEventListener('load', init, false);
+        function init() {
+            let div = document.querySelector('#ocultar-y-mostrar8');
+            div.style.visibility = 'hidden';
+            let boton = document.querySelector('#ocultar-mostrar8');
+            boton.addEventListener('click', function (e) {
+                if(div.style.visibility === 'visible'){
+                    div.style.visibility = 'hidden';
+                }else{
+                    div.style.visibility = 'visible';
+                }
+            }, false);
+        }
+    </script>
+      </div>
+</div>
+
+
+
+
+<div style="margin-top: -320px; height: 300px; width: 440px; border-radius: 10px; background-color: #0067FF; margin-left: 600px;">
+<h1 style="margin-left: 130px">Función Indice</h1>
+<button id='ocultar-mostrar9' style="margin-left: 180px;"></i>Ver Mas</button>
+
+
+ <div id='ocultar-y-mostrar9' style="margin-left: 150px"><br>
+  <img src="indice.png" style="margin-left: -140px;">
+<h5 style="margin-top: -160px; margin-left: 160px">La función INDICE devuelve un valor o la referencia a un valor desde una tabla o rango.  </h5>
+<a href="#menu"style="margin-left: 200px">Volver</a></div>
+    
+
+    <script>
+        window.addEventListener('load', init, false);
+        function init() {
+            let div = document.querySelector('#ocultar-y-mostrar9');
+            div.style.visibility = 'hidden';
+            let boton = document.querySelector('#ocultar-mostrar9');
+            boton.addEventListener('click', function (e) {
+                if(div.style.visibility === 'visible'){
+                    div.style.visibility = 'hidden';
+                }else{
+                    div.style.visibility = 'visible';
+                }
+            }, false);
+        }
+    </script>
+      </div>
+</div>
+
+    </script>
+      </div>
+</div>
+
+  </body>
+</html>
